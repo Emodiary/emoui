@@ -3,7 +3,8 @@ const util = require('../../utils/util.js')
 
 Page({
   data: {
-    logs: []
+    animation:'',
+    data:false
   },
   onLoad() {
     this.setData({

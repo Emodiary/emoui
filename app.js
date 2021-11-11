@@ -31,7 +31,7 @@ App({
         }
         else{
           wx.navigateTo({
-            url: '/pages/login1/login1'
+            url: '/pages/diary/diary'
           })
         }
       }
