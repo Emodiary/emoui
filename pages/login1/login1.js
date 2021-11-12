@@ -36,8 +36,8 @@ Page({
         })
       },
       success:function(){
-        wx.navigateTo({
-          url: '../login2/login2'
+        wx.switchTab({
+          url: '../diary/diary'
         })
       }
     })

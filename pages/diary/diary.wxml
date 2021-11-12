@@ -1,6 +1,27 @@
-<!--logs.wxml-->
+<image class="bg" src="../../images/backg.png"></image>
 <view class="container">
-  <image wx:if='{{data}}' catchtap='onChangeTap' src='../../images/Q1.png'></image>
-  <image wx:else  catchtap='onChangeTap' src='../../images/Q2.png'></image>
+  <view class="page-body">
+    <view>
+      <image class="weather" src="../../images/sun1.png"></image>
+    </view>
+    <div class="selector">
+
+    <picker-view  indicator-style="height: 50rpx;"
+     style="width: 50%; height: 100rpx;" value="{{value}}" bindchange="bindChange">
+      <picker-view-column>
+        <view class="pickcolum1" wx:for="{{months}}" wx:key="{{months}}" style="line-height: 70rpx; text-align: center;">{{item}}月</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view class="pickcolum2" wx:for="{{years}}" wx:key="{{years}}" style="line-height: 70rpx; text-align: center;">{{item}}年</view>
+      </picker-view-column>
+    </picker-view>
+
+    <text class="diasta">日记统计</text>
+    </div>
+    
+  </view>
+
 </view>
-  
+ <image class="round-click" src="../../images/click1.png">
+</image>
+

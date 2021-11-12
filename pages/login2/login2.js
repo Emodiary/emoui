@@ -36,7 +36,7 @@ Page({
         })
       },
       success:function(){
-        wx.navigateTo({
+        wx.switchTab({
           url: '../diary/diary'  //跳转到日记界面
         })
       }

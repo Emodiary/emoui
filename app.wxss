@@ -8,3 +8,18 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+.naviga{
+  display:flex;
+  display: -webkit-flex;
+  height:50rpx;
+  flex-direction:column;
+  color:#aaa
+}
+.roll{
+  flex: 1; 
+  width: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: auto;
+  color:#aaa
+}

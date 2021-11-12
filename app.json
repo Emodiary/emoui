@@ -2,7 +2,8 @@
   "pages":[
     "pages/diary/diary",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/login2/login2",
+    "pages/eat/eat"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -11,5 +12,34 @@
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/diary.png",
+        "iconPath": "images/diary.png",
+        "pagePath": "pages/diary/diary",
+        "text": "日记"
+      },
+      {
+        "selectedIconPath": "images/tree.png",
+        "iconPath": "images/tree.png",
+        "pagePath": "pages/eat/eat",
+        "text": "树洞"
+      },
+      {
+        "selectedIconPath": "images/my.png",
+        "iconPath": "images/my.png",
+        "pagePath": "pages/login2/login2",
+        "text": "我的"
+      }
+    ]
+  }
+
+ 
+  
 }
