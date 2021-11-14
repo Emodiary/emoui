@@ -31,7 +31,7 @@ App({
         }
         else{
           wx.switchTab({
-            url: '../eat/eat'  //跳转到日记界面
+            url: '../diary/diary'  //跳转到日记界面
           })
           // wx.navigateTo({
           //   url: '/pages/login1/login1'

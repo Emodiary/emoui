@@ -1,9 +1,11 @@
 {
   "pages":[
     "pages/diary/diary",
-    "pages/index/index",
+    "pages/login1/login1",
     "pages/login2/login2",
-    "pages/eat/eat"
+    "pages/treehole/treehole",
+    "pages/diaryCon/diarycon",
+    "pages/morePush/morepush"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -28,7 +30,7 @@
       {
         "selectedIconPath": "images/tree.png",
         "iconPath": "images/tree.png",
-        "pagePath": "pages/eat/eat",
+        "pagePath": "pages/treehole/treehole",
         "text": "树洞"
       },
       {
