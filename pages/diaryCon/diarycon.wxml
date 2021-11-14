@@ -1,0 +1,20 @@
+<image class="bg" src="../../images/backg.png"></image>
+<view>
+  <image class="weather" src="../../images/sun1.png"></image>
+</view>
+
+<view class="concon">
+  <view class="dateplay">
+    {{value[1]}}月{{value[0]}}日    {{value[2]}}年
+  </view>
+  <view class="dia-Content">
+    {{content}}
+  </view>
+</view>
+<view class="myemo">
+  <view class="mye">我的心情：</view>
+  <view class="emotion">悲伤</view>
+</view>
+
+
+

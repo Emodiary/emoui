@@ -1,0 +1,46 @@
+
+.bg{
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.weather{
+  width:100rpx;
+  height:100rpx;
+  margin-top: 40rpx;
+  margin-bottom: -10rpx;
+  animation: box-ani 4s  infinite linear;
+}
+@keyframes box-ani {
+  from {transform: rotate(0)}
+  to {transform: rotate(360deg)}
+}
+.concon{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.dateplay{
+  width: 90%;
+  height:20px;
+  margin-bottom: 35rpx;
+  color:#999;
+}
+.dia-Content{
+  text-indent:2em;
+  width: 90%;
+  height:90px;
+}
+.myemo{
+  padding-left:5%;
+  display:float;
+}
+.mye{
+  color:#666;
+}
+.emotion{
+  display:float;
+}
