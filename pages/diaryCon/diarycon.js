@@ -20,7 +20,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-      "content":"你好呀哈哈哈哈哈哈哈",
+    scrollTop:0,
+      "content":"你好呀哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈或或或或爱我中华爱我中华爱我中华",
        value: [days[date.getDate()-1],months[date.getMonth()], date.getFullYear()]
   },
 

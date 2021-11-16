@@ -26,17 +26,10 @@ Component({
       value: '确定'
     } 
   },
- 
-  /**
-   * 组件的初始数据
-   */
   data: {
     flag: true,
   },
  
-  /**
-   * 组件的方法列表
-   */
   methods: {
     //隐藏弹框
     hidePopup: function () {

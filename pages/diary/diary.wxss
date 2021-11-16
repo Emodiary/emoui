@@ -7,6 +7,7 @@
   position:fixed; 
   background-size:100% 100%;
   z-index: -1;
+  filter: blur(3rpx);
 }
 .page-body{
   width:100%;
@@ -43,12 +44,12 @@
 }
 
 .round-click{
-  height:200rpx;
-  width: 200rpx;
+  height:120rpx;
+  width: 120rpx;
   border-radius: 100%;
     position: fixed;
-    bottom: 50rpx;
-    right: 20rpx;
+    top: 30rpx;
+    right: 30rpx;
     display: flex;
     align-items: center;
     justify-content: center;

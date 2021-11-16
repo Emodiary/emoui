@@ -1,7 +1,6 @@
 {
   "component": true,
   "usingComponents": {
-    "eat": "../../components/eat/eat",
-    "popup": "/components/popup/popup"
+    "eat": "../../components/eat/eat"
   }
 }

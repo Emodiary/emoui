@@ -16,9 +16,8 @@ for (let i = 1; i <= 31; i++) {
 }
 
 Page({
-  
-
   data: {
+    flag1:true,
     years,
     year: date.getFullYear(),
     months,
@@ -34,26 +33,25 @@ Page({
   },{
     "CreateTime":"14",
     "CreateTime1":"13:24:19",
-    "content":"哈哈法家哈佛建设路口建瓯市就你好呀哈哈",
+    "content":"哈哈我爱学习我爱学习好好学习天天向上好好学习天天向上你好呀哈哈",
 },{
   "CreateTime":"15",
   "CreateTime1":"13:24:19",
-  "content":"哈哈法家哈佛建设路口建瓯市就你好呀哈哈",
+  "content":"哈哈我爱学习我爱学习好好学习天天向上好好学习天天向上你好呀哈哈",
 },{
   "CreateTime":"16",
   "CreateTime1":"13:24:19",
-  "content":"哈哈法家哈佛建设路口建瓯市就你好呀哈哈",
+  "content":"哈哈我爱学习我爱学习好好学习天天向上好好学习天天向上你好呀哈哈",
 },{
   "CreateTime":"17",
   "CreateTime1":"13:24:19",
-  "content":"哈哈法家哈佛建设路口建瓯市就你好呀哈哈",
+  "content":"哈哈我爱学习我爱学习好好学习天天向上好好学习天天向上你好呀哈哈",
 },{
   "CreateTime":"18",
   "CreateTime1":"13:24:19",
-  "content":"哈哈法家哈佛建设路口建瓯市就你好呀哈哈",
+  "content":"哈哈我爱学习我爱学习好好学习天天向上好好学习天天向上就你好呀哈哈",
 }]
   },
-
   bindChange(e) {
     const val = e.detail.value
     this.setData({
@@ -72,20 +70,30 @@ Page({
     //获得popup组件
     this.popup = this.selectComponent("#popup");
   },
- 
-  showPopup() {
-    this.popup.showPopup();
+  // showPopup() {
+  //   this.popup.showPopup();
+    
+  // },
+  onShow:function(){
+    this.eat = this.selectComponent("#eat"); //组件的id
+    this.eat.showEat();
+    setTimeout(function(){
+      this.eat.hideEat();
+    }.bind(this),3000)
+    // setTimeout(function(){
+    //   this.popup.showPopup();
+      
+    // }.bind(this),3000)
   },
- 
-  //取消事件
-  _error() {
-    this.popup.hidePopup();
-  },
-  //确认事件
-  _success() {
-    this.popup.hidePopup();
-    wx.navigateTo({
-      url: '../morePush/morepush',
-    })
-  }
+  // //取消事件
+  // _error() {
+  //   this.popup.hidePopup();
+  // },
+  // //确认事件
+  // _success() {
+  //   this.popup.hidePopup();
+  //   wx.navigateTo({
+  //     url: '../morePush/morepush',
+  //   })
+  // }
 })

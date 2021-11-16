@@ -32,15 +32,53 @@
 .dia-Content{
   text-indent:2em;
   width: 90%;
-  height:90px;
+  margin:20rpx;
 }
 .myemo{
+  margin:20rpx;
+  height:100rpx;
   padding-left:5%;
   display:float;
+  width:380rpx;
 }
 .mye{
+  padding-top:15rpx;
+  float:right;
   color:#666;
 }
 .emotion{
+  float:left;
+  width:90rpx;
+  height:90rpx;
+}
+
+
+.botBtn{
   display:float;
+  position: fixed;
+  bottom:0rpx;
+  width:100%;
+  z-index:9;
+  height:80rpx;
+}
+
+/* .editbot{
+  width:50%;
+  background-color:rgba(106, 209, 223,0.6);
+  float:right;
+  line-height:80rpx;
+  text-align: center;
+  border-top-left-radius: 15rpx;
+  border-top-right-radius: 15rpx;
+} */
+.delebot{
+  width:50%;
+  line-height: 80rpx;
+  position:fixed;
+  left:25%;
+  bottom:20rpx;
+  background-color:rgba(106, 209, 223,0.6);
+  text-align: center;
+  border-radius: 15rpx;
+ 
 }
