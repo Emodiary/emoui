@@ -1,0 +1,31 @@
+/* components/Searchinput/Searchinput.wxss */
+.search_input {
+  height: 90rpx;
+  padding: 10rpx;
+  background-color: #ffffff00;
+  border-radius: 15rpx;
+  margin:15rpx;
+  box-shadow: 2rpx 2rpx 4rpx 6rpx rgba(99, 216, 224, 0.829);
+}
+.search_input navigator {
+  height: 10rpx;
+  weight:10rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.205);
+  border-radius: 15rpx;
+  box-shadow: 2rpx 2rpx 4rpx 6rpx rgba(99, 216, 224, 0.829);
+}
+
+.tapimg1{  
+  width: 60rpx;
+  height: 60rpx;
+}
+ 
+.tapbtn1[plain]{
+  padding: 0;
+  border:none;   
+  width: 60rpx;
+  height: 60rpx;
+}

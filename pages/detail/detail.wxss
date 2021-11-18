@@ -1,0 +1,12 @@
+.tet{
+  color: #7d7e7e;
+  font-size: 16px;
+  font-family:"楷体";
+  margin: 20rpx;
+}
+.tev{
+  margin:10rpx;
+}
+page{
+  background-image: url(https://img2020.cnblogs.com/blog/2529663/202111/2529663-20211112174645527-277508701.png);
+}

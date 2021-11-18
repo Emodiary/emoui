@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "Searchinput":"../../components/Searchinput/Searchinput",
+    "post_message":"../../components/post_message/post_message",
+    "rclick":"../../components/roundclick/rclick",
+    "dianzan":"../../components/dianzan/dianzan",
+    "comment":"../../components/comment/comment",
+    "collect":"../../components/collect/collect",
+    "com_detail":"../../components/com_detail/com_detail"
+  }
+}

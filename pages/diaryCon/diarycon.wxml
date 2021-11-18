@@ -15,10 +15,12 @@
   <view class="mye">我的心情：社死</view>
   <image class="emotion" src="../../images/sad.png"></image>
 </view>
+
 <view class="botBtn">
   <!-- <view class="botBtn1"><view  class="editbot">编辑</view>
   </view> -->
-  <view class="botBtn2"> <view class="delebot">删除</view>
+  <view  class="botBtn2">
+     <view bindtap="deleteDia"  class="delebot">删除</view>
   </view>
   
  

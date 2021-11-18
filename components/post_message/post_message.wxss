@@ -1,0 +1,68 @@
+.post{
+  width: 725rpx;
+  padding: 10rpx;  /* 间距 */
+  border-radius: 5rpx;
+  background-color: #ffffff00;
+  border-radius: 20rpx;  /* 圆角的大小 */
+}
+
+.post1{
+  width: 98%;
+  padding: 10rpx;  /* 间距 */
+  border-radius: 5rpx;
+  background-color: #effaf900;
+  border-radius: 20rpx;  /* 圆角的大小 */
+  box-shadow: 2rpx 2rpx 6rpx 6rpx #caf2f3;
+} 
+.post2 {
+  height: 99.9%;
+  width: 99.9%;
+  justify-content: left;
+  align-items: top;
+  border-radius: 20rpx; 
+}
+.one{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between ;
+  line-height:13px;
+  margin:10rpx;
+}
+.name{
+  
+  font-size: 21px;
+  font-family:"楷体";
+}
+.time{
+  color: #9ca0a0;
+  font-size: 16px;
+}
+.potxt{
+  font-size: 18px;
+  font-family:"楷体";
+  line-height:30rpx;
+}
+.optext{
+  font-size: 18px;
+  font-family:"楷体";
+  line-height:30rpx;
+  color: #97a3a3;
+}
+.option{
+  display: flex;
+  /* flex-direction:row-reverse; */
+  align-items:centers;
+  flex-direction: row;
+  justify-content:space-between ;
+  margin:15rpx;
+}
+.option1{
+  display: flex;
+  /* flex-direction:row-reverse; */
+  align-items:center;
+  flex-direction: row;
+}
+.img-button{
+  padding: 0;
+  border: none;
+}

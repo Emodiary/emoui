@@ -1,0 +1,38 @@
+<!--components/post_message/post_message.wxml-->
+<view class="post">
+  <view class="post1">
+      <!-- 用户名 & 时间 -->
+      <view class="one">
+        <text class="name">
+          {{name}}
+        </text>
+        <text decode="true" class="optext"> &nbsp;</text>
+        <text class="time">
+          {{time}}
+        </text>
+        
+      </view>
+
+      <!-- 文章内容 -->
+      <view class="two">
+        <text class="potxt">
+          {{post_text}}
+        </text>
+      </view>
+    
+    <!-- 操作列表 -->
+    <!-- 原有的dianzan more布局
+    <view class="option">
+      <view class="option1">
+        <dianzan></dianzan>
+        <text>{{zan}}</text>
+      </view>
+      <more></more>
+    </view> -->
+    <view class="option">
+      <more></more>
+      <text decode="true" > &nbsp;&nbsp;</text>
+    </view>
+  </view>  
+
+</view>

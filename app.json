@@ -1,11 +1,16 @@
 {
   "pages":[
     "pages/diary/diary",
+    "pages/tree_a/tree_a",
+    "pages/detail/detail",
+    "pages/search_result/search_result",
+   
     "pages/login1/login1",
     "pages/login2/login2",
-    "pages/treehole/treehole",
     "pages/diaryCon/diarycon",
-    "pages/morePush/morepush"
+    "pages/morePush/morepush",
+    "pages/write/write",
+    "pages/me/me"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -20,7 +25,7 @@
   "tabBar": {
     "color": "#a9b7b7",
     "selectedColor": "#11cd6e",
-    "borderStyle": "black",
+    "borderStyle": "white",
     "list": [
       {
         "selectedIconPath": "images/diary.png",
@@ -31,13 +36,13 @@
       {
         "selectedIconPath": "images/tree.png",
         "iconPath": "images/tree.png",
-        "pagePath": "pages/treehole/treehole",
+        "pagePath": "pages/tree_a/tree_a",
         "text": "树洞"
       },
       {
         "selectedIconPath": "images/my.png",
         "iconPath": "images/my.png",
-        "pagePath": "pages/login2/login2",
+        "pagePath": "pages/me/me",
         "text": "我的"
       }
     ]

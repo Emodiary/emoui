@@ -1,0 +1,47 @@
+<!--components/post_message/post_message.wxml-->
+<view class="post">
+  <view class="post1">
+    <navigator url="/pages/detail/detail" open-type="navigate" class="post2">
+
+      <!-- 用户名 & 时间 -->
+      <view class="one">
+
+        <text class="name">
+          {{name}}
+        </text>
+
+        <text class="time">
+          {{time}}
+        </text>
+        
+      </view>
+
+      <!-- 文章内容 -->
+      <view class="two">
+        <text class="potxt">
+          {{post_text}}
+        </text>
+      </view>
+    </navigator>
+    
+    <!-- 操作列表 -->
+    <view class="option">
+      <view class="option1">
+        <dianzan></dianzan>
+        <text>{{zan}}</text>
+        <text decode="true" class="optext"> &nbsp; &nbsp;</text>
+        <comment></comment>
+        <text decode="true">&nbsp;</text>
+        <text>{{comment}}</text>
+        <text decode="true"> &nbsp; &nbsp; &nbsp;</text>
+        <collect></collect>
+        <text>{{collect}}</text>
+      </view>
+      <view class="option2">
+        <more></more>
+      </view>
+    </view>
+    
+  </view>  
+
+</view>

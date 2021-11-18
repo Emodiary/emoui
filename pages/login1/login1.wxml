@@ -13,7 +13,7 @@
       <button class="firstloginbutton" wx:elif="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 立即登录 </button>
     </block>
     <block>
-        <button class="experience"> 我先逛逛 </button>
+        <button bindtap="fStroll" class="experience"> 我先逛逛 </button>
     </block>
   </view>
   

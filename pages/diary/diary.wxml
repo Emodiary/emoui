@@ -24,8 +24,10 @@
 
 
 <view class="listview-container margin_bottom">
+<block wx:if="{{array.length}}">
   <view wx:for="{{array}}" wx:key="index">
     <view class="playlog-item" >
+  
       <view class="dotline">
         <!-- 竖线 -->
         <view class="line"></view>
@@ -34,23 +36,23 @@
         <!-- <view class="time">{{item.CreateTime}}</view> -->
         <!-- 时间戳 -->
       </view>
-      <view class="content" bindtap="diaryContent">
+      <view class="content" bindtap="diaryContent" data-id="{{index}}">
         <text class="ctime">{{item.CreateTime1}}</text>
         <text class="chapter">{{item.content}}</text>
       </view>
     </view>
   </view>
+</block>
+<block wx:else >
+<view class="voiddiary">
+<text class="voiddi">空空如也，</text>
+<text class="voiddi">来写一篇日记吧</text>
 </view>
 
-<image class="round-click" src="../../images/click3.png"></image>
+</block>
+  
+</view>
 
-<eat wx:if="{{flag1}}" id="eat" class="monster-eat"></eat>
+<image class="round-click" bindtap="editDairy" src="../../images/click3.png"></image>
 
-<!-- <popup id='popup' 
-      title='叮~开心一下!' 
-      content='哗啦啦啦啦啦啦啦啦啦啦哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈或或或或或或或或' 
-      btn_no='没有' 
-      btn_ok='查看更多>'
-      bind:error="_error"  
-      bind:success="_success">
-  </popup> -->
+<eat model:tags="{{tags}}" wx:if="{{flag1}}" id="eat" class="monster-eat"></eat>

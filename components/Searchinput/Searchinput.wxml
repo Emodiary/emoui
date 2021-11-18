@@ -1,0 +1,7 @@
+
+<view class=""> 
+   <!-- <input maxlength=15 value="搜索EMO关键词" confirm-type=/> -->
+  <navigator url="/pages/search_result/search_result" open-type="navigate"> 
+    <image class="tapimg1" src='search.png'></image>
+  </navigator>
+</view>

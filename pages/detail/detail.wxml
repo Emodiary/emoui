@@ -1,0 +1,20 @@
+<!--pages/detail/detail.wxml-->
+<view>
+  <view>
+      <post_message>
+      </post_message>
+  </view>
+  <view class="tev">
+    <text class="tet" >全部评论</text>
+  </view>
+  <view>
+    <com_detail>
+    </com_detail>
+    <com_detail>
+    </com_detail>
+    <com_detail>
+    </com_detail>
+    <com_detail>
+    </com_detail>
+  </view>
+</view>

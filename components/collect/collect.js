@@ -1,4 +1,4 @@
-// pages/me/me.js.js
+// components/collect/collect.js
 Component({
   /**
    * 组件的属性列表

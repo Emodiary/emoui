@@ -1,0 +1,28 @@
+<view >
+  <!-- 搜索框 -->
+  <view >
+    <Searchinput>
+    </Searchinput>
+  </view>
+  <!-- 帖子模块 -->
+  <view>
+    <view >
+      <post_message name="{{name}}" post_text="{{post_text}}" time="{{time}}" zan="{{zan}}" comment="{{comment}}"  collect="{{collect}}">
+      </post_message>
+    </view> 
+
+    <view >
+      <post_message>
+      </post_message>
+    </view> 
+
+    <view >
+      <post_message>
+      </post_message>
+    </view> 
+
+  </view>
+
+  <!-- 編輯模塊 -->
+  <tree_rclick></tree_rclick>
+</view>

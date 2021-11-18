@@ -94,6 +94,7 @@
   border-radius: 100%; 
   color: #fff;
   font-size: 15px;
+  text-align: center;
 }
   
 /*时间戳*/
@@ -110,6 +111,7 @@
 /*右侧主体内容*/
 .playlog-item .content {
   width: 80%;
+  height:150rpx;
   display: flex;
   flex-direction: column;
   border-top: 1px solid rgb(106, 209, 223);
@@ -123,8 +125,19 @@
   color: #999;
   white-space: normal;
   padding-right: 10px;
+  word-wrap:break-word;
+  word-break: break-all;
 }
-  
+.voiddiary{
+  width:80%;
+  position:fixed;
+  left:15%;
+  top:40%;
+}
+.voiddi{
+  color:#999;
+  font-size:larger;
+}
 /*时间部分*/
 .playlog-item .content .ctime {
   font-size: 28rpx;
