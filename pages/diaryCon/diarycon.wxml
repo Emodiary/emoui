@@ -4,26 +4,19 @@
 </view>
 
 <view class="concon">
-  <view class="dateplay">
-    {{value[1]}}月{{value[0]}}日    {{value[2]}}年
+  <view class="dateplay"> 
+    {{month}}月{{day}}日    {{year}}年
   </view>
   <view class="dia-Content">
     {{content}}
   </view>
 </view>
 <view class="myemo">
-  <view class="mye">我的心情：社死</view>
-  <image class="emotion" src="../../images/sad.png"></image>
+  <view class="mye">我的心情：{{mood}}</view>
+  <image class="emotion" src="../../icon/{{mood}}.png"></image>
 </view>
 <view class="botBtn">
   <!-- <view class="botBtn1"><view  class="editbot">编辑</view>
   </view> -->
-  <view class="botBtn2"> <view class="delebot">删除</view>
-  </view>
-  
- 
+  <view bindtap="deleteDia"  class="delebot">删除</view>
 </view>
-
-
-
-

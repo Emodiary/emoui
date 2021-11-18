@@ -80,5 +80,5 @@
   background-color:rgba(106, 209, 223,0.6);
   text-align: center;
   border-radius: 15rpx;
- 
+  letter-spacing: 15rpx;
 }
